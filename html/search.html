@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="../css/search.css">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <!-- Navigasi -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="beranda.html" class="logo">
+                Din<span>Movie.com</span>
+            </a>
+            <form name="dapatkanFilm" id="search" class="pencarian">
+                <input type="text" name="film" id="pil" placeholder="ex : Thor">
+                <a href="#">
+                    <button id="klik"><i class='bx bx-search'></i></button>
+                </a>
+            </form>
+            <!-- Pengguna -->
+            <a href="#" class="pengguna">
+                <img src="../photo/user.jpg" alt="" class="gambar-pengguna">
+            </a>
+            <!-- Bilah Navigasi -->
+            <div class="bilah-navigasi">
+                <a href="beranda.html" class="navigasi-penunjuk">
+                    <i class='bx bx-home'></i>
+                    <span class="navigasi-penunjuk-judul">Home</span>
+                </a>
+                <a href="popular.html" class="navigasi-penunjuk">
+                    <i class='bx bxs-hot'></i>
+                    <span class="navigasi-penunjuk-judul">Popular</span>
+                </a>
+                <a href="upcoming.html" class="navigasi-penunjuk">
+                    <i class='bx bxs-time'></i>
+                    <span class="navigasi-penunjuk-judul">Upcoming</span>
+                </a>
+                <a href="playing.html" class="navigasi-penunjuk">
+                    <i class='bx bx-tv'></i>
+                    <span class="navigasi-penunjuk-judul">Playing</span>
+                </a>
+                <a href="favorite.html" class="navigasi-penunjuk">
+                    <i class='bx bx-heart'></i>
+                    <span class="navigasi-penunjuk-judul">Favorite</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="home container" id="home">
+        <img src="../photo/movies.jpg" alt="photo-sampul" class="menu-gambar">
+        <div class="menu-teks">
+            <h1 class="menu-judul">Avengers : Endgame<br>Attack on Thanos</h1>
+            <p>Releaasing 31 Agustus 2019</p>
+            <a href="../photo/avenger.mp4" class="tombol-nonton">
+                <i class='bx bx-right-arrow'></i>
+                <span>Watch the Trailer</span>
+            </a>
+        </div>
+    </section>
+    <main>
+        <div>
+            <p id="output"></p>
+        </div>
+    </main>
+    <footer>
+        <div class="icon">
+            <br>
+            <a href="https://t.me/sawal1"><i class='bx bxl-telegram'></i></a>
+            <a href="https://facebook.com/Sawaluddin"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="mailto:sawaluddinsrg472@gmail.com"><i class='bx bxs-envelope'></i></a>
+            <a href="https://wa.me/082172316332"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <div class="copyright">
+            <br>
+            © 2022
+            <a href="beranda.html" class="footer-logo"><strong>DINMOVIE.COM</strong></a>
+        </div>
+    </footer>
+    <script src="../javascript/search.js"></script>
+</body>
+</html>
